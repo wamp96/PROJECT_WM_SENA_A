@@ -9,7 +9,6 @@ use App\Models\ElementModel;
 use App\Models\RequestModel;
 use App\Models\RoleModulesModel;
 use App\Models\RequestStatusModel;
-use App\Models\ProfileModel;
 use CodeIgniter\Controller;
 use CodeIgniter\HTTP\ResponseInterface;
 use CodeIgniter\API\ResponseTrait;
@@ -25,7 +24,6 @@ class Request extends Controller
     private $requestStatusModel;
     private $elementModel;
     private $roleModuleModel;
-    private $profileModel;
     private $data;
     private $model;
 
@@ -37,7 +35,6 @@ class Request extends Controller
         $this->requestStatusModel = new RequestStatusModel();
         $this->elementModel = new ElementModel();
         $this->roleModuleModel = new RoleModulesModel();
-        $this->profileModel = new ProfileModel();
         $this->data = [];
         $this->model = "requests";
     } 
@@ -49,7 +46,6 @@ class Request extends Controller
         $this->data[$this->model] = $this->requestModel->where('User_fk',(int)$this->getSessionIdUser()['User_id'])->first();
         $this->data['elements'] = $this->elementModel->orderBy('Element_id', 'ASC')->findAll();
         $this->data['request_status'] = $this->requestStatusModel->orderBy('Request_status_id', 'ASC')->findAll();
-        $this->data['profiles'] = $this->profileModel->where('User_fk',(int)$this->getSessionIdUser()['User_id'])->first();
         $this->data['userModules'] = $this->roleModuleModel->sp_role_modules_id((int)$this->getSessionIdUser()['Roles_fk']);
         return view('request/request_view', $this->data);
     }
