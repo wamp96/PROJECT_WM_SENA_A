@@ -8,14 +8,11 @@ const textConfirm = 'Press a button!\nEither OK or Cancel.';
 const btnSubmit = document.getElementById('btnSubmit');
 const mainApp = new Main(modalId, formId, classEdit, preloadId);
 
-
-
 var insertUpdate = true;
 var url = "";
 var method = "";
 var data = "";
 var resultFetch = null;
-
 
 function show(id) {
     mainApp.disabledFormAll();

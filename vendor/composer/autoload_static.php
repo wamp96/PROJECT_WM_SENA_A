@@ -29,6 +29,7 @@ class ComposerStaticInit6d5908e98624fa6de65f68f701a9c29e
         ),
         'F' => 
         array (
+            'Fluent\\Cors\\' => 12,
             'Firebase\\JWT\\' => 13,
             'Faker\\' => 6,
         ),
@@ -66,6 +67,10 @@ class ComposerStaticInit6d5908e98624fa6de65f68f701a9c29e
         'Laminas\\Escaper\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-escaper/src',
+        ),
+        'Fluent\\Cors\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/agungsugiarto/codeigniter4-cors/src',
         ),
         'Firebase\\JWT\\' => 
         array (
@@ -109,11 +114,13 @@ class ComposerStaticInit6d5908e98624fa6de65f68f701a9c29e
         'App\\Controllers\\Permission' => __DIR__ . '/../..' . '/app/Controllers/Permission.php',
         'App\\Controllers\\Profile' => __DIR__ . '/../..' . '/app/Controllers/Profile.php',
         'App\\Controllers\\Register' => __DIR__ . '/../..' . '/app/Controllers/Register.php',
+        'App\\Controllers\\Request' => __DIR__ . '/../..' . '/app/Controllers/Request.php',
         'App\\Controllers\\RequestStatus' => __DIR__ . '/../..' . '/app/Controllers/RequestStatus.php',
         'App\\Controllers\\Role' => __DIR__ . '/../..' . '/app/Controllers/Role.php',
         'App\\Controllers\\User' => __DIR__ . '/../..' . '/app/Controllers/User.php',
         'App\\Controllers\\UserStatus' => __DIR__ . '/../..' . '/app/Controllers/UserStatus.php',
         'App\\Filters\\AuthFilter' => __DIR__ . '/../..' . '/app/Filters/AuthFilter.php',
+        'App\\Filters\\CorsFilter' => __DIR__ . '/../..' . '/app/Filters/CorsFilter.php',
         'App\\Models\\AreaModel' => __DIR__ . '/../..' . '/app/Models/AreaModel.php',
         'App\\Models\\BrandModel' => __DIR__ . '/../..' . '/app/Models/BrandModel.php',
         'App\\Models\\CategoryModel' => __DIR__ . '/../..' . '/app/Models/CategoryModel.php',
@@ -1066,6 +1073,11 @@ class ComposerStaticInit6d5908e98624fa6de65f68f701a9c29e
         'Firebase\\JWT\\JWTExceptionWithPayloadInterface' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWTExceptionWithPayloadInterface.php',
         'Firebase\\JWT\\Key' => __DIR__ . '/..' . '/firebase/php-jwt/src/Key.php',
         'Firebase\\JWT\\SignatureInvalidException' => __DIR__ . '/..' . '/firebase/php-jwt/src/SignatureInvalidException.php',
+        'Fluent\\Cors\\Commands\\CorsCommand' => __DIR__ . '/..' . '/agungsugiarto/codeigniter4-cors/src/Commands/CorsCommand.php',
+        'Fluent\\Cors\\Config\\Cors' => __DIR__ . '/..' . '/agungsugiarto/codeigniter4-cors/src/Config/Cors.php',
+        'Fluent\\Cors\\Config\\Services' => __DIR__ . '/..' . '/agungsugiarto/codeigniter4-cors/src/Config/Services.php',
+        'Fluent\\Cors\\Filters\\CorsFilter' => __DIR__ . '/..' . '/agungsugiarto/codeigniter4-cors/src/Filters/CorsFilter.php',
+        'Fluent\\Cors\\ServiceCors' => __DIR__ . '/..' . '/agungsugiarto/codeigniter4-cors/src/ServiceCors.php',
         'Laminas\\Escaper\\Escaper' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Escaper.php',
         'Laminas\\Escaper\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Exception/ExceptionInterface.php',
         'Laminas\\Escaper\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Exception/InvalidArgumentException.php',

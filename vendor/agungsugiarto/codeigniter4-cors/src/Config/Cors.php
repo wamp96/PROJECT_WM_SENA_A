@@ -1,6 +1,8 @@
 <?php
 
-namespace Config;
+namespace Fluent\Cors\Config;
+
+use CodeIgniter\Config\BaseConfig;
 
 
 /**
@@ -14,7 +16,7 @@ namespace Config;
  *
  * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
  */
-class Cors extends \Fluent\Cors\Config\Cors
+class Cors extends BaseConfig
 {
     /**
      * --------------------------------------------------------------------------

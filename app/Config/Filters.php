@@ -71,7 +71,7 @@ class Filters extends BaseFilters
      */
     public array $globals = [
         'before' => [
-            'cors',
+            'cors' => ['except' => ['api/*']],
             // 'honeypot',
             // 'csrf',
             // 'invalidchars',
@@ -95,8 +95,8 @@ class Filters extends BaseFilters
      *
      * @var array<string, list<string>>
      */
-    public array $methods = [];
-
+    public array $methods = ['cors' => \App\Filters\CorsFilter::class,];
+        
     /**
      * List of filter aliases that should run on any
      * before or after URI patterns.
@@ -106,5 +106,7 @@ class Filters extends BaseFilters
      *
      * @var array<string, array<string, list<string>>>
      */
-    public array $filters = [];
+    public array $filters = [
+        'cors' => [ 'after' =>['api/*']]
+    ];
 }

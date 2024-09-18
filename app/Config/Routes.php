@@ -39,18 +39,6 @@ $routes->group("element", function($routes){
     $routes->post("update/(:num)","element::update/$1",['filter' => 'authFilter']);
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
 $routes->group("userStatus", function($routes){
     $routes->get("/", "userStatus::index");
     $routes->get("show", "UserStatus::index");
