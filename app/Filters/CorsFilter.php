@@ -10,8 +10,11 @@ class CorsFilter implements FilterInterface
 {
     public function before(RequestInterface $request, $arguments = null)
     {
-        $response = service('response');
+        // Aquí puedes manejar lógicas adicionales antes de la solicitud
+    }
 
+    public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
+    {
         // Agregar cabeceras CORS
         $response->setHeader('Access-Control-Allow-Origin', '*');
         $response->setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
@@ -21,13 +24,9 @@ class CorsFilter implements FilterInterface
         if ($request->getMethod() === 'options') {
             $response->setStatusCode(200);
             $response->setBody('');
-            $response->send();
-            exit;
+            return $response; // Devuelve la respuesta
         }
-    }
 
-    public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
-    {
-        // No se necesita lógica después de la solicitud en este caso.
+        return $response; // Asegúrate de devolver la respuesta en otros casos también
     }
 }

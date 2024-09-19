@@ -11,21 +11,15 @@ class Login extends BaseController
 {
     use ResponseTrait;
 
+
+
     public function index()
     {
-
-        // Configuración de CORS
-        header("Access-Control-Allow-Origin: http://localhost:8081");
-        header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
-        header("Access-Control-Allow-Headers: Content-Type, Authorization");
-
-        // Manejo de preflight request
-        if ($this->request->getMethod() === 'options') {
-            http_response_code(200);
-            exit();
+         // Manejar solicitudes OPTIONS
+         if ($this->request->getMethod() === 'options') {
+            return $this->respond('', 204); // Respuesta vacía para OPTIONS
         }
 
-        // Validación de datos
         $userModel = new UserModel();
         $email = $this->request->getVar('User_correo');
         $password = $this->request->getVar('User_password');
@@ -53,7 +47,7 @@ class Login extends BaseController
         );
         $token = JWT::encode($payload, $key, 'HS256');
         $response = [
-           // 'message' => 'Login successful',
+            'message' => 'Login successful',
             'token' => $token
         ];
         return $this->respond($response, 200);

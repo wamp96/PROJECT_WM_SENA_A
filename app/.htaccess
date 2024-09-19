@@ -4,3 +4,18 @@
 <IfModule !authz_core_module>
 	Deny from all
 </IfModule>
+<IfModule mod_headers.c>
+    Allow from all
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "POST, GET, DELETE, PUT, PATCH, OPTIONS"
+    Header set Access-Control-Allow-Headers "Authorization, Content-Type"
+</IfModule>
+
+# Si deseas manejar la solicitud OPTIONS de manera explícita
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} OPTIONS
+    RewriteRule ^(.*)$ $1 [R=200,L]
+</IfModule>
+
+
