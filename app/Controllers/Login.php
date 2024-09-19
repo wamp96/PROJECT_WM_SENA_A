@@ -11,19 +11,27 @@ class Login extends BaseController
 {
     use ResponseTrait;
 
-
+    public function __construct()
+    {
+        // Configurar encabezados CORS
+        header('Access-Control-Allow-Origin: *');
+        header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
+        header('Access-Control-Allow-Headers: Content-Type, Authorization');
+        header('Access-Control-Max-Age: 3600');
+    }
 
     public function index()
     {
-         // Manejar solicitudes OPTIONS
-         if ($this->request->getMethod() === 'options') {
-            return $this->respond('', 204); // Respuesta vacía para OPTIONS
+
+        if ($this->request->getMethod() === 'options') {
+            return $this->respond('', 204); 
         }
 
         $userModel = new UserModel();
         $email = $this->request->getVar('User_correo');
         $password = $this->request->getVar('User_password');
-        $user = $userModel->where('User_correo', $email)->first();
+        $user = $userModel->where('User_correo', $email)->first(); 
+
         
         if (is_null($user)){
             return $this->respond(['error' => 'Invalid username', 401]);
@@ -32,7 +40,8 @@ class Login extends BaseController
         $pwd_verify = password_verify($password, $user['User_password']);
 
         if(!$pwd_verify){
-            return $this->respond(['error' => $user['User_password'],$password,$pwd_verify], 401);
+            return $this->respond(['error' => 'Invalid password'], 401);
+           // return $this->respond(['error' => $user['User_password'],$password,$pwd_verify], 401);
         }
         $key = getenv('JWT_SECRET');
         $iat = time();

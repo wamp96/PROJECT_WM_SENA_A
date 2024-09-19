@@ -10,9 +10,10 @@ use CodeIgniter\Router\RouteCollection;
 //GROUP CRUD----------------------------------------------------------------
 
 //GROUP API----------------------------------------------------------------
-$routes->group("api", function ($routes){
+$routes->group("api",function ($routes){
     $routes->post("register", "Register::index");
-    $routes->post("login", "Login::index");
+    $routes->post("login", "Login::index",['filter' => 'cors']);
+    $routes->options('login', 'Login::index');
     $routes->get("users", "User::viewList"); 
     $routes->get("request", "Request::viewList");
     //$routes->get("users", "User::viewList",['filter' => 'authFilter']);
@@ -26,6 +27,7 @@ $routes->group("user", function($routes){
     $routes->get("edit/(:num)","user::singleUser/$1",['filter' => 'authFilter']);
     $routes->get("delete/(:num)","user::delete/$1",['filter' => 'authFilter']);
     $routes->post("add","user::create",['filter' => 'authFilter']);
+    
     $routes->post("update/(:num)","user::update/$1",['filter' => 'authFilter']);
 });
 

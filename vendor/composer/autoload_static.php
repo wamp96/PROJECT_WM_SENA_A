@@ -120,7 +120,7 @@ class ComposerStaticInit6d5908e98624fa6de65f68f701a9c29e
         'App\\Controllers\\User' => __DIR__ . '/../..' . '/app/Controllers/User.php',
         'App\\Controllers\\UserStatus' => __DIR__ . '/../..' . '/app/Controllers/UserStatus.php',
         'App\\Filters\\AuthFilter' => __DIR__ . '/../..' . '/app/Filters/AuthFilter.php',
-        'App\\Filters\\CorsFilter' => __DIR__ . '/../..' . '/app/Filters/CorsFilter.php',
+        'App\\Filters\\Cors' => __DIR__ . '/../..' . '/app/Filters/Cors.php',
         'App\\Models\\AreaModel' => __DIR__ . '/../..' . '/app/Models/AreaModel.php',
         'App\\Models\\BrandModel' => __DIR__ . '/../..' . '/app/Models/BrandModel.php',
         'App\\Models\\CategoryModel' => __DIR__ . '/../..' . '/app/Models/CategoryModel.php',

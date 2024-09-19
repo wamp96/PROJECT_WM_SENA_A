@@ -21,7 +21,7 @@ return array(
     'App\\Controllers\\User' => $baseDir . '/app/Controllers/User.php',
     'App\\Controllers\\UserStatus' => $baseDir . '/app/Controllers/UserStatus.php',
     'App\\Filters\\AuthFilter' => $baseDir . '/app/Filters/AuthFilter.php',
-    'App\\Filters\\CorsFilter' => $baseDir . '/app/Filters/CorsFilter.php',
+    'App\\Filters\\Cors' => $baseDir . '/app/Filters/Cors.php',
     'App\\Models\\AreaModel' => $baseDir . '/app/Models/AreaModel.php',
     'App\\Models\\BrandModel' => $baseDir . '/app/Models/BrandModel.php',
     'App\\Models\\CategoryModel' => $baseDir . '/app/Models/CategoryModel.php',

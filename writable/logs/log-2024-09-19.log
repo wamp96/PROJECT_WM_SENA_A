@@ -62,3 +62,595 @@ WARNING - 2024-09-19 00:49:34 --> [DEPRECATED] Creation of dynamic property App\
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
  7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:40:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$roleModel is deprecated in APPPATH\Controllers\User.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:40:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$userStatusModel is deprecated in APPPATH\Controllers\User.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:40:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$cityModel is deprecated in APPPATH\Controllers\User.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:40:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$areaModel is deprecated in APPPATH\Controllers\User.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:40:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$roleModel is deprecated in APPPATH\Controllers\User.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:40:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$userStatusModel is deprecated in APPPATH\Controllers\User.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:40:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$cityModel is deprecated in APPPATH\Controllers\User.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:40:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$areaModel is deprecated in APPPATH\Controllers\User.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:40:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$roleModel is deprecated in APPPATH\Controllers\User.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:40:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$userStatusModel is deprecated in APPPATH\Controllers\User.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:40:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$cityModel is deprecated in APPPATH\Controllers\User.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:40:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$areaModel is deprecated in APPPATH\Controllers\User.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:45:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$roleModel is deprecated in APPPATH\Controllers\User.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:45:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$userStatusModel is deprecated in APPPATH\Controllers\User.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:45:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$cityModel is deprecated in APPPATH\Controllers\User.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:45:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$areaModel is deprecated in APPPATH\Controllers\User.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:45:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$roleModel is deprecated in APPPATH\Controllers\User.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:45:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$userStatusModel is deprecated in APPPATH\Controllers\User.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:45:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$cityModel is deprecated in APPPATH\Controllers\User.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+WARNING - 2024-09-19 01:45:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$areaModel is deprecated in APPPATH\Controllers\User.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 14:32:49 --> CodeIgniter\Filters\Exceptions\FilterException: "corsFilter" filter must have a matching alias defined.
+[Method: GET, Route: api/users]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('corsFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('corsFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 14:34:24 --> CodeIgniter\Filters\Exceptions\FilterException: "corsFilter" filter must have a matching alias defined.
+[Method: GET, Route: api/users]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('corsFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('corsFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 14:36:14 --> CodeIgniter\Filters\Exceptions\FilterException: "corsFilter" filter must have a matching alias defined.
+[Method: GET, Route: api/users]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('corsFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('corsFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 14:38:14 --> CodeIgniter\Filters\Exceptions\FilterException: "corsFilter" filter must have a matching alias defined.
+[Method: GET, Route: api/users]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('corsFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('corsFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 14:38:17 --> CodeIgniter\Filters\Exceptions\FilterException: "corsFilter" filter must have a matching alias defined.
+[Method: GET, Route: api/users]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('corsFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('corsFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 14:46:48 --> ErrorException: Undefined array key "corsFilter"
+[Method: OPTIONS, Route: api/users]
+in SYSTEMPATH\Filters\Filters.php on line 754.
+ 1 SYSTEMPATH\Filters\Filters.php(754): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "corsFilter"', 'C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\codeigniter4\\framework\\system\\Filters\\Filters.php', 754)
+ 2 SYSTEMPATH\Filters\Filters.php(712): CodeIgniter\Filters\Filters->registerArguments('corsFilter', [], false)
+ 3 SYSTEMPATH\Filters\Filters.php(398): CodeIgniter\Filters\Filters->processFilters('api/users')
+ 4 SYSTEMPATH\Filters\Filters.php(181): CodeIgniter\Filters\Filters->initialize('api/users')
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/users', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 15:19:17 --> CodeIgniter\Filters\Exceptions\FilterException: "cors" filter must have a matching alias defined.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('cors')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('cors', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 15:41:42 --> CodeIgniter\Filters\Exceptions\FilterException: "cors" filter must have a matching alias defined.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('cors')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('cors', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:06:46 --> CodeIgniter\Filters\Exceptions\FilterException: "cors" filter must have a matching alias defined.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('cors')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('cors', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:15:27 --> CodeIgniter\Filters\Exceptions\FilterException: "cors" filter must have a matching alias defined.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('cors')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('cors', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:18:47 --> CodeIgniter\Filters\Exceptions\FilterException: "cors" filter must have a matching alias defined.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 495.
+ 1 SYSTEMPATH\Filters\Filters.php(495): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('cors')
+ 2 SYSTEMPATH\Filters\Filters.php(547): CodeIgniter\Filters\Filters->enableFilter('cors', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:41:17 --> ArgumentCountError: Too few arguments to function CodeIgniter\HTTP\Message::setHeader(), 1 passed in C:\xampp\htdocs\API_PROYECTO\app\Filters\Cors.php on line 29 and exactly 2 expected
+[Method: POST, Route: api/login]
+in SYSTEMPATH\HTTP\MessageTrait.php on line 148.
+ 1 APPPATH\Filters\Cors.php(29): CodeIgniter\HTTP\Message->setHeader('Access-Control-Allow-Headers: Origin, Content-Type, Authorization')
+ 2 SYSTEMPATH\Filters\Filters.php(241): App\Filters\Cors->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 3 SYSTEMPATH\Filters\Filters.php(188): CodeIgniter\Filters\Filters->runAfter([...])
+ 4 SYSTEMPATH\CodeIgniter.php(527): CodeIgniter\Filters\Filters->run('api/login', 'after')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:43:55 --> ArgumentCountError: Too few arguments to function CodeIgniter\HTTP\Message::setHeader(), 1 passed in C:\xampp\htdocs\API_PROYECTO\app\Filters\Cors.php on line 29 and exactly 2 expected
+[Method: POST, Route: api/login]
+in SYSTEMPATH\HTTP\MessageTrait.php on line 148.
+ 1 APPPATH\Filters\Cors.php(29): CodeIgniter\HTTP\Message->setHeader('Access-Control-Allow-Headers: Origin, Content-Type, Authorization')
+ 2 SYSTEMPATH\Filters\Filters.php(241): App\Filters\Cors->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 3 SYSTEMPATH\Filters\Filters.php(188): CodeIgniter\Filters\Filters->runAfter([...])
+ 4 SYSTEMPATH\CodeIgniter.php(527): CodeIgniter\Filters\Filters->run('api/login', 'after')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:45:29 --> ParseError: syntax error, unexpected token "<", expecting "function" or "const"
+[Method: OPTIONS, Route: api/login]
+in APPPATH\Filters\Cors.php on line 25.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\composer/../../app\\Filters\\Cors.php')
+ 2 SYSTEMPATH\Filters\Filters.php(197): Composer\Autoload\ClassLoader->loadClass('App\\Filters\\Cors')
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:45:38 --> ParseError: syntax error, unexpected token "<", expecting "function" or "const"
+[Method: POST, Route: api/login]
+in APPPATH\Filters\Cors.php on line 25.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\composer/../../app\\Filters\\Cors.php')
+ 2 SYSTEMPATH\Filters\Filters.php(197): Composer\Autoload\ClassLoader->loadClass('App\\Filters\\Cors')
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:46:02 --> ErrorException: include(C:\xampp\htdocs\API_PROYECTO\vendor\composer/../../app/Filters/CorsFilter.php): Failed to open stream: No such file or directory
+[Method: POST, Route: api/login]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\composer/../../app/Filters/CorsFilter.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\composer/../../app/Filters/CorsFilter.php')
+ 4 SYSTEMPATH\Filters\Filters.php(197): Composer\Autoload\ClassLoader->loadClass('App\\Filters\\CorsFilter')
+ 5 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 6 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:46:40 --> ErrorException: include(C:\xampp\htdocs\API_PROYECTO\vendor\composer/../../app/Filters/CorsFilter.php): Failed to open stream: No such file or directory
+[Method: POST, Route: api/login]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\composer/../../app/Filters/CorsFilter.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\composer/../../app/Filters/CorsFilter.php')
+ 4 SYSTEMPATH\Filters\Filters.php(235): Composer\Autoload\ClassLoader->loadClass('App\\Filters\\CorsFilter')
+ 5 SYSTEMPATH\Filters\Filters.php(188): CodeIgniter\Filters\Filters->runAfter([...])
+ 6 SYSTEMPATH\CodeIgniter.php(527): CodeIgniter\Filters\Filters->run('api/login', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:47:52 --> ErrorException: include(C:\xampp\htdocs\API_PROYECTO\vendor\composer/../../app/Filters/CorsFilter.php): Failed to open stream: No such file or directory
+[Method: POST, Route: api/login]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\composer/../../app/Filters/CorsFilter.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\composer/../../app/Filters/CorsFilter.php')
+ 4 SYSTEMPATH\Filters\Filters.php(235): Composer\Autoload\ClassLoader->loadClass('App\\Filters\\CorsFilter')
+ 5 SYSTEMPATH\Filters\Filters.php(188): CodeIgniter\Filters\Filters->runAfter([...])
+ 6 SYSTEMPATH\CodeIgniter.php(527): CodeIgniter\Filters\Filters->run('api/login', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:48:27 --> Error: Class "App\Filters\Cors" not found
+[Method: POST, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 235.
+ 1 SYSTEMPATH\Filters\Filters.php(188): CodeIgniter\Filters\Filters->runAfter([...])
+ 2 SYSTEMPATH\CodeIgniter.php(527): CodeIgniter\Filters\Filters->run('api/login', 'after')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:48:50 --> ErrorException: Undefined array key "cors"
+[Method: POST, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 754.
+ 1 SYSTEMPATH\Filters\Filters.php(754): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cors"', 'C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\codeigniter4\\framework\\system\\Filters\\Filters.php', 754)
+ 2 SYSTEMPATH\Filters\Filters.php(712): CodeIgniter\Filters\Filters->registerArguments('cors', [], false)
+ 3 SYSTEMPATH\Filters\Filters.php(398): CodeIgniter\Filters\Filters->processFilters('api/login')
+ 4 SYSTEMPATH\Filters\Filters.php(181): CodeIgniter\Filters\Filters->initialize('api/login')
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:49:29 --> ErrorException: Undefined array key "cors"
+[Method: POST, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 754.
+ 1 SYSTEMPATH\Filters\Filters.php(754): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cors"', 'C:\\xampp\\htdocs\\API_PROYECTO\\vendor\\codeigniter4\\framework\\system\\Filters\\Filters.php', 754)
+ 2 SYSTEMPATH\Filters\Filters.php(712): CodeIgniter\Filters\Filters->registerArguments('cors', [], false)
+ 3 SYSTEMPATH\Filters\Filters.php(398): CodeIgniter\Filters\Filters->processFilters('api/login')
+ 4 SYSTEMPATH\Filters\Filters.php(181): CodeIgniter\Filters\Filters->initialize('api/login')
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 16:49:43 --> Error: Class "App\Filters\Cors" not found
+[Method: POST, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 235.
+ 1 SYSTEMPATH\Filters\Filters.php(188): CodeIgniter\Filters\Filters->runAfter([...])
+ 2 SYSTEMPATH\CodeIgniter.php(527): CodeIgniter\Filters\Filters->run('api/login', 'after')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:31:38 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:33:34 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:36:54 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:37:52 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:41:26 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:41:28 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:43:04 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:46:20 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:47:18 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:47:19 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:47:20 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:47:54 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 19:52:34 --> CodeIgniter\Filters\Exceptions\FilterException: "Fluent\Cors\Config\Cors" must implement CodeIgniter\Filters\FilterInterface.
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 200.
+ 1 SYSTEMPATH\Filters\Filters.php(200): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('Fluent\\Cors\\Config\\Cors')
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 20:52:07 --> Error: Class "App\Filters\Cors" not found
+[Method: OPTIONS, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 20:52:11 --> Error: Class "App\Filters\Cors" not found
+[Method: POST, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')
+CRITICAL - 2024-09-19 20:53:02 --> Error: Class "App\Filters\Cors" not found
+[Method: POST, Route: api/login]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\API_PROYECTO\\public\\index.php')

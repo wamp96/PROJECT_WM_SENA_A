@@ -12,7 +12,7 @@ use CodeIgniter\Filters\SecureHeaders;
 use CodeIgniter\Filters\ForceHTTPS;
 use CodeIgniter\Filters\PageCache;
 use CodeIgniter\Filters\PerformanceMetrics;
-use CodeIgniter\Filters\Cors;
+use App\Filters\Cors;
 
 class Filters extends BaseFilters
 {
@@ -32,7 +32,7 @@ class Filters extends BaseFilters
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
         'authFilter'    => \App\Filters\AuthFilter::class,
-        'cors'          => \App\Filters\CorsFilter::class,
+        'cors'          => Cors::class,
         'forcehttps'    => ForceHTTPS::class,
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
@@ -51,17 +51,17 @@ class Filters extends BaseFilters
      *
      * @var array{before: list<string>, after: list<string>}
      */
-    public array $required = [
-        'before' => [
-            'forcehttps', // Force Global Secure Requests
-            'pagecache',  // Web Page Caching
-        ],
-        'after' => [
-            'pagecache',   // Web Page Caching
-            'performance', // Performance Metrics
-            'toolbar',     // Debug Toolbar
-        ],
-    ];
+    // public array $required = [
+    //     'before' => [
+    //         'forcehttps', // Force Global Secure Requests
+    //         'pagecache',  // Web Page Caching
+    //     ],
+    //     'after' => [
+    //         'pagecache',   // Web Page Caching
+    //         'performance', // Performance Metrics
+    //         'toolbar',     // Debug Toolbar
+    //     ],
+    // ];
 
     /**
      * List of filter aliases that are always
@@ -77,9 +77,10 @@ class Filters extends BaseFilters
             // 'invalidchars',
         ],
         'after' => [
+            'cors',
             // 'honeypot',
             // 'secureheaders',
-        ],
+        ],  
     ];
 
     /**
@@ -95,7 +96,7 @@ class Filters extends BaseFilters
      *
      * @var array<string, list<string>>
      */
-    public array $methods = ['cors' => \App\Filters\CorsFilter::class,];
+    public array $methods = ['cors',];
         
     /**
      * List of filter aliases that should run on any
@@ -107,6 +108,9 @@ class Filters extends BaseFilters
      * @var array<string, array<string, list<string>>>
      */
     public array $filters = [
-        'cors' => [ 'after' =>['api/*']]
+        'cors' => [
+            'before' =>['api/*'],
+            'after' =>['api/*']
+        ],
     ];
 }
